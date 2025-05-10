@@ -1,0 +1,117 @@
+[10May2025 18:47:22.055] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.21 Arclight arclight-1.21-1.0.0-SNAPSHOT-b3349e9 with Fabric Loader 0.15.11
+mainEx[10May2025 18:47:22.225] [main/INFO] [FabricLoader/]: Loading 41 mods:
+	- arclight 1.0.0-SNAPSHOT+b3349e9
+	- fabric-api 0.100.1+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8c90
+	   |-- fabric-api-lookup-api-v1 1.6.65+b559734490
+	   |-- fabric-biome-api-v1 13.0.28+6fc22b9990
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a790
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c90
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a790
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c90
+	   |-- fabric-command-api-v1 1.2.48+f71b366f90
+	   |-- fabric-command-api-v2 2.2.27+6a6dfa1990
+	   |-- fabric-commands-v0 0.2.65+df3654b390
+	   |-- fabric-content-registries-v0 8.0.11+b559734490
+	   |-- fabric-convention-tags-v1 2.0.12+7f945d5b90
+	   |-- fabric-convention-tags-v2 2.2.1+d153f34490
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a790
+	   |-- fabric-data-attachment-api-v1 1.1.22+6a6dfa1990
+	   |-- fabric-data-generation-api-v1 20.2.6+16c4ae2590
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9990
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b9990
+	   |-- fabric-events-interaction-v0 0.7.10+e633f88390
+	   |-- fabric-game-rule-api-v1 1.0.52+6573ed8c90
+	   |-- fabric-item-api-v1 11.0.0+afdfc92190
+	   |-- fabric-item-group-api-v1 4.1.0+00ab0a6390
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
+	   |-- fabric-keybindings-v0 0.2.45+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.3.9+98a7dbbb90
+	   |-- fabric-loot-api-v2 3.0.9+6573ed8c90
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c90
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b90
+	   |-- fabric-networking-api-v1 4.1.0+686dcdce90
+	   |-- fabric-object-builder-api-v1 15.1.10+d132107690
+	   |-- fabric-particles-v1 4.0.2+6573ed8c90
+	   |-- fabric-recipe-api-v1 5.0.8+6573ed8c90
+	   |-- fabric-registry-sync-v0 5.0.21+b9828ba390
+	   |-- fabric-renderer-api-v1 3.2.16+fe474d6b90
+	   |-- fabric-renderer-indigo 1.6.3+cc9f121a90
+	   |-- fabric-renderer-registries-v1 3.2.66+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e90
+	   |-- fabric-rendering-fluids-v1 3.1.6+b559734490
+	   |-- fabric-rendering-v0 1.1.69+df3654b390
+	   |-- fabric-rendering-v1 5.0.3+d132107690
+	   |-- fabric-resource-conditions-api-v1 4.2.1+d153f34490
+	   |-- fabric-resource-loader-v0 1.1.3+b559734490
+	   |-- fabric-screen-api-v1 2.0.24+b559734490
+	   |-- fabric-screen-handler-api-v1 1.3.78+b559734490
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c90
+	   |-- fabric-transfer-api-v1 5.1.12+b559734490
+	   \-- fabric-transitive-access-wideners-v1 6.0.12+6573ed8c90
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 21
+	- minecraft 1.21
+mainEx[10May2025 18:47:22.315] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/skibidi-server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+mainEx[10May2025 18:47:22.385] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_17
+mainEx[10May2025 18:47:22.818] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
+mainEx[10May2025 18:47:22.829] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    Version 诸王 (Feudal Kings) / arclight-1.21-1.0.0-SNAPSHOT-b3349e9
+    Build Date 2024-06-29 03:46:12
+
+mainEx[10May2025 18:47:24.165] [main/INFO] [FabricLoader/MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+mainEx[10May2025 18:47:34.586] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+mainEx[10May2025 18:47:35.374] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
+mainEx[10May2025 18:47:36.271] [main/INFO] [net.minecraft.class_1863/]: Loaded 1290 recipes
+mainEx[10May2025 18:47:36.515] [main/INFO] [net.minecraft.class_163/]: Loaded 1399 advancements
+mainEx[10May2025 18:47:36.992] [main/INFO] [net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl/]: Applied 0 biome modifications to 0 of 64 new biomes in 1.643 ms
+mainEx[10May2025 18:47:37.001] [Server thread/INFO] [net.minecraft.class_3176/]: Starting minecraft server version 1.21
+Server threadEx[10May2025 18:47:37.001] [Server thread/INFO] [net.minecraft.class_3176/]: Loading properties
+Server threadEx[10May2025 18:47:37.001] [Server thread/INFO] [net.minecraft.class_3176/]: Default game type: SURVIVAL
+Server threadEx[10May2025 18:47:37.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+Server threadEx[10May2025 18:47:37.072] [Server thread/INFO] [net.minecraft.class_3176/]: Starting Minecraft server on *:25565
+Server threadEx[10May2025 18:47:37.169] [Server thread/INFO] [net.minecraft.class_3242/]: Using epoll channel type
+Server threadEx[10May2025 18:47:37.265] [Server thread/WARN] [net.minecraft.class_3176/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+Server threadEx[10May2025 18:47:37.265] [Server thread/WARN] [net.minecraft.class_3176/]: The server will make no attempt to authenticate usernames. Beware.
+Server threadEx[10May2025 18:47:37.265] [Server thread/WARN] [net.minecraft.class_3176/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+Server threadEx[10May2025 18:47:37.265] [Server thread/WARN] [net.minecraft.class_3176/]: To change this, set "online-mode" to "true" in the server.properties file.
+Server threadEx[10May2025 18:47:37.480] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21-1.0.0-SNAPSHOT-b3349e9 (MC: 1.21) (Implementing API version 1.21-R0.1-SNAPSHOT)
+Server threadEx[10May2025 18:47:37.809] [Server console handler/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+Server console handlerEx[10May2025 18:47:37.840] [Server console handler/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+Server console handlerEx[10May2025 18:47:38.451] [Server thread/INFO] [Arclight/]: Registering for Bukkit ...
+Server threadEx[10May2025 18:47:38.490] [Server thread/INFO] [Arclight/]: Registered 0 new materials with 0 blocks and 0 items
+Server threadEx[10May2025 18:47:38.654] [Server thread/INFO] [Arclight/]: Registered 0 new entity types
+Server threadEx[10May2025 18:47:38.654] [Server thread/INFO] [Arclight/]: Registered 0 new villager professions
+Server threadEx[10May2025 18:47:38.655] [Server thread/INFO] [Arclight/]: Registered 0 new biomes
+Server threadEx[10May2025 18:47:38.670] [Server thread/INFO] [net.minecraft.class_2983/]: [STDOUT]: Server Ping Player Sample Count: 12
+Server threadEx[10May2025 18:47:38.673] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+Server threadEx[10May2025 18:47:38.674] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+Server threadEx[10May2025 18:47:38.809] [Server thread/INFO] [net.minecraft.class_3176/]: Preparing level "world"
+Server threadEx[10May2025 18:47:38.822] [Server thread/INFO] [Arclight/]: Registered 0 new dimensions
+Server threadEx[10May2025 18:47:39.085] [Server thread/ERROR] [net.minecraft.class_3846/]: Cound not schedule mailbox
+Server threadEx java.util.concurrent.RejectedExecutionException: null
+	at java.base/java.util.concurrent.ForkJoinPool.submissionQueue(ForkJoinPool.java:2351) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.poolSubmit(ForkJoinPool.java:2368) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.execute(ForkJoinPool.java:2847) ~[?:?]
+	at net.minecraft.class_3846.method_16908(class_3846.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16901(class_3846.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3906.method_17345(class_3906.java:21) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3900.method_17622(class_3900.java:92) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.<init>(ChunkMapMixin.java:197) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.<init>(ServerChunkCacheMixin.java:84) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.<init>(ServerLevelMixin.java:242) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3786(MinecraftServerMixin.java:377) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServerMixin.java:342) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(DedicatedServerMixin_Vanilla.java:185) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServerMixin.java:664) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServerMixin.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
