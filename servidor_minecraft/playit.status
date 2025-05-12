@@ -1,9 +1,6 @@
-8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 1 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1747089970473 tunnel running, 1 tunnels registered
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 1 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1747090028575 tunnel running, 1 tunnels registered
 
-Failed to create guest login link
+login: https://playit.gg/login/guest-account/AAAAAQAAAAAAAAAAABOm4wAAAZbGrjhtAAAAAQAAAAEAAAAAAAAAADfn9ALCqD6YzS04O84j2Si1P4hbgxiWAFYVwnFQTDs5
 
 TUNNELS
 west-sense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mGot Error
-MSG: Failed to load latest tunnels
-Error: ClientError(TooManyRequests)
