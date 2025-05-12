@@ -1,14 +1,30 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   },
   "tunnels": [
     {
       "active": true,
       "alloc": {
-        "status": "pending"
+        "data": {
+          "assigned_domain": "west-sense.gl.joinmc.link",
+          "assigned_srv": "west-sense.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "e637f202-8b5a-4620-ad0b-ab4f30d4b553",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 50491,
+          "port_start": 50490,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "static_ip6": "2602:fbaf:0:1::14",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
       },
       "created_at": "2025-05-10T18:42:03.503890Z",
       "disabled_reason": null,
