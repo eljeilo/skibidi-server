@@ -222,4 +222,9 @@ Worker-Main-3Ex[12May2025 21:28:23.741] [Worker-Main-2/INFO] [net.minecraft.clas
 Worker-Main-2Ex[12May2025 21:28:24.234] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 51%
 Worker-Main-1Ex[12May2025 21:28:24.305] [Server thread/INFO] [net.minecraft.class_3951/]: Time elapsed: 7573 ms
 Server threadEx[12May2025 21:28:24.306] [Server thread/INFO] [net.minecraft.class_3176/]: Done (12.978s)! For help, type "help"
+Server threadEx[12May2025 21:55:48.822] [User Authenticator #1/INFO] [net.minecraft.class_3248/]: UUID of player Ashika_ is 70d43d10-3edf-3441-80f2-b2cc48623fe5
+User Authenticator #1Ex[12May2025 21:55:50.621] [Server thread/INFO] [net.minecraft.class_3324/]: Ashika_[/127.234.18.105:35119] logged in with entity id 15 at (5.5, 92.0, -0.5)
+Server threadEx[12May2025 21:55:50.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ashika_ joined the game
+Server threadEx[12May2025 21:55:57.419] [Server thread/INFO] [net.minecraft.class_3244/]: Ashika_ lost connection: Disconnected
+Server threadEx[12May2025 21:55:57.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ashika_ left the game
 Server threadEx
