@@ -5087,4 +5087,237 @@ Server threadEx[12May2025 22:20:57.840] [Server thread/INFO] [net.minecraft.serv
 Server threadEx[12May2025 22:20:57.952] [Server thread/DEBUG] [FabricLoader/Mixin/]: Mixing TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin from fabric-object-builder-v1.mixins.json into net.minecraft.class_3853$class_4162
 Server threadEx[12May2025 22:20:57.952] [Server thread/DEBUG] [FabricLoader/Mixin/]: fabric-object-builder-v1.mixins.json:TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin from mod fabric-object-builder-api-v1: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
 Server threadEx[12May2025 22:20:57.955] [Server thread/DEBUG] [FabricLoader/Mixin/]: fabric-object-builder-v1.mixins.json:TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin from mod fabric-object-builder-api-v1->@Inject::failOnNullItem(Lnet/minecraft/class_1297;Lnet/minecraft/class_5819;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+Server threadEx[12May2025 22:25:04.344] [Server console handler/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class org/jline/reader/impl/LineReaderImpl$3
+Server console handlerEx[12May2025 22:25:04.347] [Server console handler/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class org/jline/terminal/impl/MouseSupport$1
+Server console handlerEx[12May2025 22:25:04.348] [Server console handler/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+Server console handlerEx[12May2025 22:25:04.348] [Server console handler/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+Server console handlerEx[12May2025 22:25:04.348] [Server console handler/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+Server console handlerEx[12May2025 22:25:04.349] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+Server threadEx java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 1025
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.rehash(LongOpenHashSet.java:828) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.removeEntry(LongOpenHashSet.java:440) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.remove(LongOpenHashSet.java:463) ~[fastutil-8.5.12.jar:?]
+	at net.minecraft.class_3898.method_17217(ChunkMapMixin.java:375) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898$class_3216.method_14053(class_3898.java:1241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204$class_4077.method_15485(class_3204.java:504) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3554.method_15492(class_3554.java:161) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204$class_4077.method_18746(class_3204.java:511) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204.method_15892(DistanceManagerMixin.java:120) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_16155(ServerChunkCacheMixin.java:267) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.bridge$tickDistanceManager(ServerChunkCacheMixin.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215$class_4212.method_16075(ServerChunkCache_MainThreadExecutorMixin.java:643) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_19492(ServerChunkCacheMixin.java:263) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServerMixin.java:852) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServerMixin.java:840) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(BlockableEventLoopMixin.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18857(MinecraftServerMixin.java:810) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServerMixin.java:815) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServerMixin.java:702) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServerMixin.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[12May2025 22:25:04.349] [Server console handler/ERROR] [net.minecraft.class_3176/]: Caught previously unhandled exception :
+Server console handlerEx java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 1025
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.rehash(LongOpenHashSet.java:828) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.removeEntry(LongOpenHashSet.java:440) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.remove(LongOpenHashSet.java:463) ~[fastutil-8.5.12.jar:?]
+	at net.minecraft.class_3898.method_17217(ChunkMapMixin.java:375) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898$class_3216.method_14053(class_3898.java:1241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204$class_4077.method_15485(class_3204.java:504) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3554.method_15492(class_3554.java:161) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204$class_4077.method_18746(class_3204.java:511) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204.method_15892(DistanceManagerMixin.java:120) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_16155(ServerChunkCacheMixin.java:267) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_12127(ServerChunkCacheMixin.java:307) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3782(MinecraftServerMixin.java:615) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3782(DedicatedServerMixin_Vanilla.java:561) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServerMixin.java:588) ~[server-intermediary.jar:?]
+	at io.izzel.arclight.common.mod.util.ArclightTerminalReader.handleCommands(ArclightTerminalReader.java:61) ~[arclight-1.21-1.0.0-SNAPSHOT-b3349e9.jar:?]
+	at net.minecraft.class_3176$1.handler$blb000$arclight$terminalConsole(DedicatedServer_ServerInputThreadMixin_Vanilla.java:518) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176$1.run(DedicatedServer_ServerInputThreadMixin_Vanilla.java) ~[server-intermediary.jar:?]
+[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+Server threadEx[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+Server threadEx[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+Server threadEx[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+Server threadEx[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+Server threadEx[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+Server threadEx[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+Server threadEx[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+Server threadEx[12May2025 22:25:04.351] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+Server threadEx[12May2025 22:25:04.352] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+Server threadEx[12May2025 22:25:04.353] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+Server threadEx[12May2025 22:25:04.354] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+Server threadEx[12May2025 22:25:04.355] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+Server threadEx[12May2025 22:25:04.356] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+Server threadEx[12May2025 22:25:04.357] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+Server threadEx[12May2025 22:25:04.358] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+Server threadEx[12May2025 22:25:04.359] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+Server threadEx[12May2025 22:25:04.360] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+Server threadEx[12May2025 22:25:04.361] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+Server threadEx[12May2025 22:25:04.362] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+Server threadEx[12May2025 22:25:04.362] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+Server threadEx[12May2025 22:25:04.362] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+Server threadEx[12May2025 22:25:04.362] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+Server threadEx[12May2025 22:25:04.367] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+Server threadEx[12May2025 22:25:04.374] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+Server threadEx[12May2025 22:25:04.375] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+Server threadEx[12May2025 22:25:04.383] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/skibidi-server/servidor_minecraft/crash-reports/crash-2025-05-12_22.25.04-server.txt
+Server threadEx[12May2025 22:25:04.384] [Server thread/DEBUG] [org.jline/]: Removing shutdown-hook: Thread[#23,JLine Shutdown Hook,5,main]
 Server threadEx

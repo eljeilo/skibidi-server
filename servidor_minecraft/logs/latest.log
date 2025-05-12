@@ -328,4 +328,50 @@ Server threadEx[12May2025 22:20:40.484] [Server thread/INFO] [net.minecraft.clas
 Server threadEx[12May2025 22:20:40.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ashika_ joined the game
 Server threadEx[12May2025 22:20:57.819] [Server thread/INFO] [net.minecraft.class_3244/]: Ashika_ lost connection: Disconnected
 Server threadEx[12May2025 22:20:57.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ashika_ left the game
+Server threadEx[12May2025 22:25:04.348] [Server console handler/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+Server console handlerEx[12May2025 22:25:04.348] [Server console handler/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+Server console handlerEx[12May2025 22:25:04.348] [Server console handler/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+Server console handlerEx[12May2025 22:25:04.349] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+Server threadEx java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 1025
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.rehash(LongOpenHashSet.java:828) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.removeEntry(LongOpenHashSet.java:440) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.remove(LongOpenHashSet.java:463) ~[fastutil-8.5.12.jar:?]
+	at net.minecraft.class_3898.method_17217(ChunkMapMixin.java:375) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898$class_3216.method_14053(class_3898.java:1241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204$class_4077.method_15485(class_3204.java:504) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3554.method_15492(class_3554.java:161) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204$class_4077.method_18746(class_3204.java:511) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204.method_15892(DistanceManagerMixin.java:120) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_16155(ServerChunkCacheMixin.java:267) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.bridge$tickDistanceManager(ServerChunkCacheMixin.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215$class_4212.method_16075(ServerChunkCache_MainThreadExecutorMixin.java:643) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_19492(ServerChunkCacheMixin.java:263) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServerMixin.java:852) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServerMixin.java:840) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(BlockableEventLoopMixin.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18857(MinecraftServerMixin.java:810) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServerMixin.java:815) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServerMixin.java:702) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServerMixin.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[12May2025 22:25:04.349] [Server console handler/ERROR] [net.minecraft.class_3176/]: Caught previously unhandled exception :
+Server console handlerEx java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 1025
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.rehash(LongOpenHashSet.java:828) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.removeEntry(LongOpenHashSet.java:440) ~[fastutil-8.5.12.jar:?]
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.remove(LongOpenHashSet.java:463) ~[fastutil-8.5.12.jar:?]
+	at net.minecraft.class_3898.method_17217(ChunkMapMixin.java:375) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898$class_3216.method_14053(class_3898.java:1241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204$class_4077.method_15485(class_3204.java:504) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3554.method_15492(class_3554.java:161) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204$class_4077.method_18746(class_3204.java:511) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3204.method_15892(DistanceManagerMixin.java:120) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_16155(ServerChunkCacheMixin.java:267) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_12127(ServerChunkCacheMixin.java:307) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3782(MinecraftServerMixin.java:615) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3782(DedicatedServerMixin_Vanilla.java:561) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServerMixin.java:588) ~[server-intermediary.jar:?]
+	at io.izzel.arclight.common.mod.util.ArclightTerminalReader.handleCommands(ArclightTerminalReader.java:61) ~[arclight-1.21-1.0.0-SNAPSHOT-b3349e9.jar:?]
+	at net.minecraft.class_3176$1.handler$blb000$arclight$terminalConsole(DedicatedServer_ServerInputThreadMixin_Vanilla.java:518) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176$1.run(DedicatedServer_ServerInputThreadMixin_Vanilla.java) ~[server-intermediary.jar:?]
+[12May2025 22:25:04.383] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/skibidi-server/servidor_minecraft/crash-reports/crash-2025-05-12_22.25.04-server.txt
 Server threadEx
