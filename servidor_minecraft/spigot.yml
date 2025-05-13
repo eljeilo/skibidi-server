@@ -11,6 +11,8 @@
 # Forums: http://www.spigotmc.org/
 
 commands:
+  tab-complete: 0
+  send-namespaced: true
   replace-commands:
   - setblock
   - summon
@@ -20,8 +22,6 @@ commands:
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
-  tab-complete: 0
-  send-namespaced: true
 settings:
   sample-count: 12
   player-shuffle: 0
@@ -52,6 +52,7 @@ players:
   disable-saving: false
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
     verbose: true
     zombie-aggressive-towards-villager: true
     merge-radius:
@@ -137,7 +138,6 @@ world-settings:
     item-despawn-rate: 6000
     view-distance: default
     nerf-spawner-mobs: false
-    below-zero-generation-in-existing-chunks: true
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
