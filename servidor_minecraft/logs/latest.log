@@ -1,34 +1,21 @@
-[03:40:05] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[03:40:05] [main/INFO]: Loading 4 mods:
-	- fabricloader 0.16.3
-	   \-- mixinextras 0.4.1
-	- java 21
-	- minecraft 1.21
-[03:40:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/skibidi-server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:40:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:40:12] [main/INFO]: No existing world data, creating new world
-[03:40:12] [main/INFO]: Loaded 1290 recipes
-[03:40:13] [main/INFO]: Loaded 1399 advancements
-[03:40:13] [Server thread/INFO]: Starting minecraft server version 1.21
-[03:40:13] [Server thread/INFO]: Loading properties
-[03:40:13] [Server thread/INFO]: Default game type: SURVIVAL
-[03:40:13] [Server thread/INFO]: Generating keypair
-[03:40:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:40:13] [Server thread/INFO]: Using epoll channel type
-[03:40:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:40:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:40:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:40:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:40:13] [Server thread/INFO]: Preparing level "world"
-[03:40:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:40:20] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[03:40:20] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[03:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[03:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[03:40:22] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[03:40:22] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[03:40:23] [Worker-Main-2/INFO]: Preparing spawn area: 34%
-[03:40:23] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[03:40:24] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[03:40:24] [Server thread/INFO]: Time elapsed: 4340 ms
-[03:40:24] [Server thread/INFO]: Done (10.855s)! For help, type "help"
+[03:44:06] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[03:44:06] [ForkJoinPool-1-worker-2/WARN]: Mod extrasounds uses the version 1.3a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:44:06] [ForkJoinPool-1-worker-2/WARN]: Mod wurst uses the version v7.46.6-MC1.21 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:44:06] [main/WARN]: Mod resolution failed
+[03:44:06] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE fabric-language-kotlin 1.13.2+kotlin.2.1.20 {depends fabricloader @ [>=0.16.9]}, ROOT_FORCELOAD_SINGLE fabric-language-kotlin 1.13.2+kotlin.2.1.20]
+[03:44:06] [main/INFO]: Reason: [HARD_DEP fabric-language-kotlin 1.13.2+kotlin.2.1.20 {depends fabricloader @ [>=0.16.9]}]
+[03:44:06] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, entity_model_features, fabric-keybindings-v0, entity_texture_features, modmenu, mousetweaks, advanced-xray-fabric, fabric-screen-api-v1, fabric-renderer-indigo, dark-loading-screen, eatinganimationid, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1, fabric-model-loading-api-v1, iris, tweakeroo, malilib, indium, continuity, fabric-client-tags-api-v1, litematica, visuality, fabric-blockrenderlayer-v1, itemscroller, sodium, fabric-renderer-registries-v1, minihud, wurst, detailab, zoomify, euphoria_patcher, nvidium, presencefootsteps]
+[03:44:06] [main/INFO]: Fix: add [], remove [], replace [[fabricloader 0.16.3] -> add:fabricloader 0.16.9 ([[0.16.9,∞)])]
+[03:44:06] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.3 with version 0.16.9 or later.
+More details:
+	 - Mod 'Fabric Language Kotlin' (fabric-language-kotlin) 1.13.2+kotlin.2.1.20 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
