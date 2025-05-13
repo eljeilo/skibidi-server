@@ -1,29 +1,41 @@
-[13May2025 02:08:45.580] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.21 Arclight arclight-1.21-1.0.0-SNAPSHOT-b3349e9 with Fabric Loader 0.15.11
-mainEx[13May2025 02:08:45.718] [ForkJoinPool-1-worker-2/WARN] [FabricLoader/Metadata/]: Mod extrasounds uses the version 1.3a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-ForkJoinPool-1-worker-2Ex[13May2025 02:08:45.728] [ForkJoinPool-1-worker-2/WARN] [FabricLoader/Metadata/]: Mod wurst uses the version v7.46.6-MC1.21 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-ForkJoinPool-1-worker-2Ex[13May2025 02:08:45.997] [main/WARN] [FabricLoader/Resolution/]: Mod resolution failed
-mainEx[13May2025 02:08:45.998] [main/INFO] [FabricLoader/Resolution/]: Immediate reason: [HARD_DEP_NO_CANDIDATE easymagic 21.0.4 {depends fabricloader @ [>=0.16.0]}, ROOT_FORCELOAD_SINGLE easymagic 21.0.4]
-mainEx[13May2025 02:08:45.998] [main/INFO] [FabricLoader/Resolution/]: Reason: [HARD_DEP easymagic 21.0.4 {depends fabricloader @ [>=0.16.0]}, HARD_DEP puzzleslib 21.0.20 {depends fabricloader @ [>=0.16.0]}, HARD_DEP elevatorid 1.21-1.11.1 {depends fabricloader @ [>=0.16.0]}, HARD_DEP forgeconfigapiport 21.0.8 {depends fabricloader @ [>=0.16.0]}, HARD_DEP extrasounds 1.3a {depends fabricloader @ [>=0.16.0]}, HARD_DEP fabric-language-kotlin 1.13.2+kotlin.2.1.20 {depends fabricloader @ [>=0.16.9]}, HARD_DEP jei 19.21.0.247 {depends fabricloader @ [>=0.16.3]}, HARD_DEP subtle_effects 1.8.0 {depends fabricloader @ [>=0.16.0]}]
-mainEx[13May2025 02:08:45.998] [main/INFO] [FabricLoader/Resolution/]: SERVER environment disabled: [fabric-renderer-api-v1, entity_model_features, fabric-keybindings-v0, entity_texture_features, modmenu, mousetweaks, advanced-xray-fabric, fabric-screen-api-v1, fabric-renderer-indigo, dark-loading-screen, eatinganimationid, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1, fabric-model-loading-api-v1, iris, tweakeroo, malilib, indium, continuity, fabric-client-tags-api-v1, litematica, visuality, fabric-blockrenderlayer-v1, itemscroller, sodium, fabric-renderer-registries-v1, minihud, wurst, detailab, zoomify, euphoria_patcher, nvidium, presencefootsteps]
-mainEx[13May2025 02:08:45.999] [main/INFO] [FabricLoader/Resolution/]: Fix: add [], remove [], replace [[fabricloader 0.15.11] -> add:fabricloader 0.16.9 ([[0.16.9,∞)])]
-mainEx[13May2025 02:08:46.011] [main/ERROR] [FabricLoader/]: Incompatible mods found!
-mainEx net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
-A potential solution has been determined, this may resolve your problem:
-	 - Replace mod 'Fabric Loader' (fabricloader) 0.15.11 with version 0.16.9 or later.
-More details:
-	 - Mod 'Easy Magic' (easymagic) 21.0.4 requires version 0.16.0 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.15.11!
-	 - Mod 'Puzzles Lib' (puzzleslib) 21.0.20 requires version 0.16.0 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.15.11!
-	 - Mod 'ElevatorMod' (elevatorid) 1.21-1.11.1 requires version 0.16.0 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.15.11!
-	 - Mod 'Forge Config API Port' (forgeconfigapiport) 21.0.8 requires version 0.16.0 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.15.11!
-	 - Mod 'ExtraSounds Next' (extrasounds) 1.3a requires version 0.16.0 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.15.11!
-	 - Mod 'Fabric Language Kotlin' (fabric-language-kotlin) 1.13.2+kotlin.2.1.20 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.15.11!
-	 - Mod 'Just Enough Items' (jei) 19.21.0.247 requires version 0.16.3 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.15.11!
-	 - Mod 'Subtle Effects' (subtle_effects) 1.8.0 requires version 0.16.0 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.15.11!
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:195) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.15.11.jar:?]
-	at io.izzel.arclight.boot.fabric.application.Main_Fabric.main(Main_Fabric.java:33) [arclight.jar:arclight-1.21-1.0.0-SNAPSHOT-b3349e9]
-	at io.izzel.arclight.server.Launcher.main(Launcher.java:39) [arclight.jar:arclight-1.21-1.0.0-SNAPSHOT-b3349e9]
+[03:28:23] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[03:28:23] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21
+[03:28:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/skibidi-server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:28:29] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:28:30] [main/INFO]: No existing world data, creating new world
+[03:28:31] [main/INFO]: Loaded 1290 recipes
+[03:28:31] [main/INFO]: Loaded 1399 advancements
+[03:28:31] [Server thread/INFO]: Starting minecraft server version 1.21
+[03:28:31] [Server thread/INFO]: Loading properties
+[03:28:31] [Server thread/INFO]: Default game type: SURVIVAL
+[03:28:31] [Server thread/INFO]: Generating keypair
+[03:28:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:28:32] [Server thread/INFO]: Using epoll channel type
+[03:28:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:28:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:28:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:28:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:28:32] [Server thread/INFO]: Preparing level "world"
+[03:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:28:38] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[03:28:38] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[03:28:39] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[03:28:39] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[03:28:40] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[03:28:40] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[03:28:41] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[03:28:41] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[03:28:42] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[03:28:42] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[03:28:43] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[03:28:43] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[03:28:43] [Server thread/INFO]: Time elapsed: 5897 ms
+[03:28:43] [Server thread/INFO]: Done (11.753s)! For help, type "help"
+[03:30:24] [Server thread/INFO]: Ashika_[/127.234.18.105:42333] logged in with entity id 7 at (-6.5, 71.0, -7.5)
+[03:30:24] [Server thread/INFO]: Ashika_ joined the game
+[03:30:39] [Server thread/INFO]: Ashika_ lost connection: Disconnected
+[03:30:39] [Server thread/INFO]: Ashika_ left the game
